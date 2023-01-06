@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Content</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div id="quiz">
+        <h1>Java Quiz</h1>
+        <div id="score-board">
+            Score: <span id="score">0</span>
+            <div id="timer">Time left: 60s</div>
+        </div>
+        <div id="question"></div>
+        <div class="choices">
+            <button class="choice">Are</button>
+            <button class="choice">You To</button>
+            <button class="choice">Ready</button>
+            <button class="choice">Play</button>
+        </div>
+    </div>
+    <button id="start-button">Start Quiz</button>
+    <form id="initials-form">
+        <label for="initials">Enter your initials:</label>
+        <input type="text" name="initials" required>
+        <button type="submit">Save</button>
+    </form>
+</body>
+    <script src="game.js"></script>
+
+</html>
